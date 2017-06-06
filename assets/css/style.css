@@ -1,0 +1,482 @@
+body{
+font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 12px;
+color: #001429;
+background-image: url("../images/concrete_seamless.png");
+margin: 0px;
+padding: 0px;
+z-index: 1;
+}
+
+.container{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+min-height: 50px;
+font-size: 12px;
+}
+
+.header{
+width: 100%;
+height: 150px;
+border-bottom: 1px solid #FFFFFF;
+box-shadow: 0px 0px 2px #2F2F2A;
+}
+
+.outer_content{
+width: 100%;
+margin-top:10px;
+}
+
+.outer_login_announcement
+{
+float: left;
+width: 65%;
+}
+
+.inner_content
+{
+margin-bottom: 10px;
+}
+
+.login_box{
+width: 33.55%;
+margin-left: 10px;
+min-height: 50px;
+float: left;
+}
+
+.border_thm
+{
+border-radius: 7px;
+/* border: 1px solid #33CCFF;
+box-shadow: 2px 2px 2px #99CCFF;*/
+box-shadow: 2px 2px 2px #99CCFF;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
+.border_round{
+	border-radius: 4px;
+	border: 1px solid #33CCFF;
+	padding: 10px 5px;
+}
+
+.text_title1{
+font-size: 15px;
+font-weight: bold;
+color: #001429;
+padding-bottom: 10px;
+}
+
+.text_title2{
+font-size: 13px;
+font-weight: bold;
+color: #0066CC;
+}
+
+a{
+text-decoration: None;
+color: #0066CC;
+}
+
+.text
+{
+margin-top: 10px;
+}
+
+.text2
+{
+padding: 5px 0px;
+font-size: 12px;
+}
+
+.center_content
+{
+width: 80%;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.left_content
+{
+padding: 10px;
+}
+
+.right_button
+{
+float: right;
+width: auto;
+}
+
+a:hover
+{
+text-decoration: none;
+color: #001429;
+}
+
+.h_line
+{
+border-top: 1px solid #33CCFF;
+width: 80%;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.button
+{
+padding: 3px 7px;
+background-color: #33CCFF;
+border-radius: 2px;
+border: 1px solid #33CCFF;
+color: #001429;
+}
+
+.button:hover
+{
+background-color: #FFFFFF;
+color: #001429;
+cursor: pointer;
+}
+
+table
+{
+font-size: 12px;
+}
+
+.main_footer
+{
+clear: both;
+padding: 20px 0px;
+margin: 0px;
+width: 100%;
+border: none;
+min-height: 115px;
+bottom: 0px;
+position: relative;
+background-color: #E3E3E3;
+text-shadow: 0 1px rgba(255,255,255,0.8);
+/*background-color: rgba(255, 255, 255, 0.6); */
+}
+
+.footer_wrapper
+{
+width: 1000px;
+margin: 0px auto;
+}
+
+.footer_border
+{
+border-right: 1px solid #C7C7C7;
+box-shadow: 1px 0 #FFFFFF;
+}
+
+.footer_item
+{
+float: left;
+color: #000000;
+width: 159px;
+padding-left: 40px;
+height: 100px;
+}
+
+.footer_text_item
+{
+padding: 5px 0px;
+}
+
+.footer_text
+{
+color: #000000;
+}
+
+.footer_title
+{
+padding: 0px 0px 10px 0px;
+font-weight: bold;
+}
+
+.footer_text:hover
+{
+text-decoration: none;
+border-bottom: 1px solid #C7C7C7;
+box-shadow: 0 1px #FFFFFF;
+color: #669999;
+}
+
+.clear_b
+{
+clear: both;
+}
+
+.left_menu_container{
+float: left;
+width: 20%;
+padding: 0px;
+}
+
+.menu_item
+{
+padding: 10px;
+font-size: 12px;
+color: #001429;
+font-weight: normal;
+border-radius: 2px;
+}
+
+.menu_item:hover
+{
+background-color: #669999;
+color: #FFFFFF;
+}
+
+.menu_title
+{
+padding: 10px 2px;
+border-radius: 2px;
+}
+.menu_title:hover
+{
+background-color: #669999;
+color: #FFFFFF;
+}
+
+.selected
+{
+border: 1px solid #669999;
+background-color: #669999;
+color: #FFFFFF;
+}
+
+.main_content
+{
+float: left;
+width: 78.5%;
+margin: 0px 0px 0px 10px;
+padding: 0px;
+}
+
+.content_announcement
+{
+float: left;
+width: 68%;
+min-height: 300px;
+}
+
+.content_navigator
+{
+float: left;
+width: 31%
+}
+
+.float
+{
+float: left;
+}
+
+.main_title
+{
+padding: 10px;
+}
+
+.announcement_item
+{
+margin: 5px 0px;
+}
+
+.announcement_text
+{
+padding-top:5px;
+}
+
+.input_normal
+{
+border: 1px solid #33CCFF;
+padding: 2px;
+}
+
+.announcement_list
+{
+padding-left: 15px;
+list-style-type: none;
+}
+
+.pagination_button
+{
+float:right;
+cursor: pointer;
+}
+
+.table_view tbody tr td
+{
+padding: 5px;
+}
+
+.gray
+{
+color: #666666;
+	
+}
+
+.pagination_button
+{
+padding: 1px;
+border-left: 1px solid #FFFFFF;
+background-color: #33CCFF;
+color: #FFFFFF;
+min-width: 20px;
+height: 20px;
+text-align: center;
+line-height: 20px;
+}
+
+.pagination_button:hover
+{
+background-color: #669999;
+cursor: pointer;
+}
+
+.search_box
+{
+/*border: 1px solid #33CCFF;*/
+margin-top: 10px;
+padding: 20px 20px 0px 20px;
+width: 500px;
+}
+
+.textinput
+{
+width: 100%;
+}
+
+.manage_results
+{
+margin: 10px;
+padding: 20px;
+width: 92%;
+}
+
+.table_header
+{
+font-weight: bold;
+background-color: #33CCFF;
+color: #ffffff;
+}
+
+.table_header td
+{
+padding: 5px;
+}
+
+.manage_results table, .tborder
+{
+border: 1px solid #33CCFF;
+}
+
+.page_message
+{
+background: rgba(0, 217, 54, 0.6);
+width: 715px;
+padding: 10px;
+color: #ffffff;
+border-radius: 5px;
+z-index: 120;
+margin-left: 10px;
+margin-top: 2px;
+position: absolute;
+font-size: 12px;
+text-align: center;
+display: none;
+}
+
+.confirm_dialog
+{
+position: absolute;
+width: 350px;
+min-height: 200px;
+border: 1px solid #33CCFF;
+z-index: 150;
+background-color: #FFFFFF;
+margin-left: 38%;
+margin-top: 20%;
+}
+
+.preview{
+font-size: 12px;
+min-height: 430px;
+}
+
+.footnote{
+font-size: 12px;
+left: 0px;
+color: #666666;
+margin-top: 10px;
+}
+
+.current_page{
+float: right;
+padding: 5px;
+color: #999999;
+}
+
+.normal_text_size{
+width: 350px;
+}
+
+/*div pop up*/
+
+.search_box_popup
+{
+/*border: 1px solid #33CCFF;*/
+margin-top: 0px;
+padding: 10px 20px 0px 10px;
+width: 94%;
+}
+
+/* popup_box DIV-Styles*/
+.popup_box { 
+  /*    display:none;Hide the DIV */
+    _position:absolute; /* hack for internet explorer 6 */ 
+	position : fixed;	
+    height:615px;
+    width:70%;
+    background:#FFFFFF;
+    left: 15%;
+    top: 15px;	
+    z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: auto;  
+    margin-right: auto; 
+    
+    /* additional features, can be omitted */
+    border:0 5px 5px 0px solid #000000;      
+    padding:15px;  
+    font-size:15px;  
+    -moz-box-shadow: 0 5px 5px 0px #000000;
+    -webkit-box-shadow: 0 5px 5px 0px #000000;
+    box-shadow: 2px 2px 5px #000000;
+	overflow: scroll;
+    
+}
+
+.popup_container {
+	 position:fixed;  
+    _position:absolute; /* hack for internet explorer 6 */  
+    display:none;
+	background: rgba(190, 190, 190, .5);
+    width:100%;
+    height:100%;
+	z-index:99;
+}
+
+/* This is for the positioning of the Close Link */
+#popupBoxClose {
+    font-size:20px;  
+    line-height:15px;  
+    right:5px;  
+    top:5px;  
+    position:absolute;  
+    color:#6fa5e2;  
+    font-weight:500;      
+}
